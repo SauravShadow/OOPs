@@ -1,0 +1,8 @@
+In this we will be seeing the basics of Object Oriented Programming
+
+- Encapsulatioon
+- Abstraction
+- Inheritance
+- Polymorphism
+- SOLID Principles
+
