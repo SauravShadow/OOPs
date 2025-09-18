@@ -1,0 +1,4 @@
+Design patterns are basically the premade blueprints that one can customize to solve a recurring problem
+- Creational Design Pattern
+- Structural Pattern
+- Behavioral Pattern
