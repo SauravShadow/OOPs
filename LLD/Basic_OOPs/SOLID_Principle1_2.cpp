@@ -8,7 +8,7 @@ using namespace std;
 These are the 5 design principle to help the developer to :
 - Maintain
 - Scale
-- Easy to understand
+- Easy to understands
 - Flexible to change
 */
 
@@ -78,8 +78,15 @@ class ActionAnimeInfo: public PrintAnimeInfo
     public:
     void printAnimeInfo(Anime &anime) override
     {
-        cout << anime.getTitle() << " is a crazy action anime with "
+        if (anime.getGenre() == "Action")
+        {
+            cout << anime.getTitle() << " is a crazy action anime with "
         << anime.getEpisodes() << " episodes!. It will definitely blow your mind if you watch it" << endl;
+        }
+        else
+        {
+         cout << anime.getTitle() << "is not an Action anime.\n";
+        }
     }
 };
 
@@ -88,8 +95,16 @@ class RomanceAnimeInfo: public PrintAnimeInfo
     public:
     void printAnimeInfo(Anime& anime) override
     {
-        cout << anime.getTitle() << " is a sweet romance anime with "
-        << anime.getEpisodes() << " episodes!" << endl;
+        if (anime.getGenre() == "Romance")
+        {
+            cout << anime.getTitle() << " is a sweet romance anime with "
+            << anime.getEpisodes() << " episodes!" << endl;
+        }
+        else
+        {
+            cout << anime.getTitle() << " is not a romance anime\n";
+        }
+
     }
 };
 
