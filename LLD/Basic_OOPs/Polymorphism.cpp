@@ -23,7 +23,7 @@ class Anime
 class Isekai: public Anime
 {
     public:
-    void print(string s)
+    void print (string s) override
     {
         cout << s << " is an isekai anime." << endl;
     }
