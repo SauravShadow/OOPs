@@ -1,4 +1,7 @@
 Design patterns are basically the premade blueprints that one can customize to solve a recurring problem
 - Creational Design Pattern
+    - Factory Method
+    - Builder Pattern
+    - Sinleton Pattern
 - Structural Pattern
 - Behavioral Pattern
