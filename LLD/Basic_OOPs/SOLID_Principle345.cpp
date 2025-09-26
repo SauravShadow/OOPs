@@ -53,7 +53,7 @@ int main()
 }
 // In the above what all the basic OOPs concepts has been used
 //Abstraction - Fighter class defines the contract
-//Inheritance - Demona and DemonSlayer class inherits the base class Fighter
+//Inheritance - Demons and DemonSlayer class inherits the base class Fighter
 //Encapsulation - Data like breathing style and upperMoon hidden inside the class
 //Polymorphism - Different behavior when calling fighter via get description
 /*

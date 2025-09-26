@@ -5,3 +5,5 @@ Design patterns are basically the premade blueprints that one can customize to s
     - Sinleton Pattern
 - Structural Pattern
 - Behavioral Pattern
+    - Strategy Pattern
+    - Observer Pattern
