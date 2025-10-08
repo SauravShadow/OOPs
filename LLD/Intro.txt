@@ -1,6 +1,21 @@
-Hi Buddies,
+Here we will practice some basic example of low-level design questions
 
-Here I go, starting to maintain the github repository with the topics or skills I will learn.
-All the examples will be done in C++.
+Begineers - Intermediate
+- Parking lot system
+- Elevator system
+- Movie ticket booking system
+- Vending Machine
+- Logger system
 
-Sayonara
+Intermediate - Advance
+- Notification system
+- URL Shortner
+- Cache system
+- E-commerce cart system
+- Rate Limiter
+
+Bonus Problems
+- a payment gateway
+- a chat system
+- a gaming lobby
+- a news feed system
