@@ -1,0 +1,17 @@
+Let's follow top-bottom approach
+
+A vehicle comes near one entry gate and is at the billing place.
+At billing place, his vehicle is identified, he is given the entry time and the spot number.
+He goes and parks it there.
+After some time he comes back take his vehicle goes near the exit route.
+His time is noted, the bill is generated and the bill is paid.
+
+Classes required for the above:
+
+Vehicle -> Each vehicle type, Vehicle count.
+GetNearestSpot -> Floor, spot number, vehicle type
+AvailableSpot - stores for each vehicle type,
+Billing:
+BillPayment-
+Recipt - id, Current time, entry, exit, Bill calculation
+VehicleExit-

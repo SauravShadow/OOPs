@@ -1,0 +1,27 @@
+Design a parking lot system than can handle multiple floors, different vehicle types(bike, car, truck),
+and keeps track of entry, exit, and available parking spots efficiently.
+
+Support:
+- Assigning a parking spot to a vehicle when it enters.
+- Releasing a spot when it exits.
+- Display available spots by type and floor.
+
+Assumption:
+- Each floor has limited slots for each vehicle type.
+- Vehicle gets the nearest available spots of their type.
+
+
+Summary:
+- The parking lot has 3 floors.
+- Each floor has different sections for each vehicle type:
+    - 100 -> Bike spots
+    - 200 -> Car spots
+    - 50 -> Truck spots
+- There are 2 entry and 2 exits point
+- When assigning spots, need to assign an unique spot for each entry
+    - We can use multi-threading to do assign the spot
+    - The spots can be stored in the min-heap (priority queue).
+    - Let's say the spots are number from nearest to end by 1- 100 : -> 1 means the nearest and 100 the farthest.
+    - Whenever the spots are freed it can be inserted back.
+- Billing system - Time based and different for each vehicle type.
+- Vehicle type - BIKE, CAR, TRUCK.
